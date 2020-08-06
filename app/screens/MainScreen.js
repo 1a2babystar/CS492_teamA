@@ -1,10 +1,12 @@
 import React from 'react';
 import {StyleSheet, TouchableOpacity, Text, View, Image} from 'react-native';
+import colors from '../config/colors';
 
 export default class MainScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <Text style={styles.title}>No Porn Deepfake</Text>
         <TouchableOpacity
           style={styles.button}
           onPress={() => {
@@ -18,6 +20,11 @@ export default class MainScreen extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  title: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: colors.secondary,
+  },
   container: {
     flex: 1,
     backgroundColor: '#FFF',

@@ -46,7 +46,7 @@ export default function LoginScreen({navigation}) {
   return (
     <ImageBackground
       style={styles.background}
-      source={require('../Images/background.jpg')}>
+      source={require('../Images/abstract1.jpg')}>
       <View style={styles.Theme}>
         <Text style={styles.Title}>No Porn Deepfake</Text>
       </View>
